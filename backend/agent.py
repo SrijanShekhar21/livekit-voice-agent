@@ -29,7 +29,7 @@ async def entrypoint(ctx: agents.JobContext):
         llm=llm_model,
         tts=speechify.TTS(
             model="simba-english",
-            voice_id="oliver",
+            voice_id="kristy",
         ),
         vad=silero.VAD.load(),
         turn_detection=MultilingualModel(),
